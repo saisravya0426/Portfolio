@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Github, ExternalLink, HardDrive, BookOpen, ArrowUpRight } from "lucide-react";
+import { Github,  HardDrive, BookOpen, ArrowUpRight } from "lucide-react";
 
 const DRDO_DRIVE = "https://drive.google.com/file/d/1hZZ8K73cURH93r3K8PSY_nyo3O5qGusP/view?usp=sharing";
 const PINN_COLAB = "https://colab.research.google.com/drive/1RF4LUA4RiGdsGexGpIbiJ6rh4cN5bT4?usp=sharing";
