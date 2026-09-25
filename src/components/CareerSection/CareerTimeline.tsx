@@ -6,6 +6,13 @@ const DRDO_DRIVE = "https://drive.google.com/file/d/1hZZ8K73cURH93r3K8PSY_nyo3O5
 const CERTIFICATE = "https://drive.google.com/file/d/1Ae9R4I9dE6gi2mLHNtED9-T5mcj3tzuu/view?usp=sharing";
 
 const timeline = [
+   {
+    year: "Aug 2023 – May 2027",
+    title: "B.Tech — Computer Science & Engineering",
+    company: "Indian Institute of Information Technology, Agartala • CGPA 8.75",
+    description: "Building depth across DSA, OOP, Operating Systems, Computer Networks and DBMS while applying those foundations through systems programming, networking and machine learning projects.",
+    links: [],
+  },
   {
     year: "Dec 2025 – Jan 2026",
     title: "Project Intern — NSTL-DRDO",
@@ -27,13 +34,7 @@ const timeline = [
     description: "Leading the Girls' Hostel Mess Committee, taking responsibility for coordination, communication and day-to-day issue resolution with students and the relevant campus stakeholders.",
     links: [],
   },
-  {
-    year: "Aug 2023 – May 2027",
-    title: "B.Tech — Computer Science & Engineering",
-    company: "Indian Institute of Information Technology, Agartala • CGPA 8.75",
-    description: "Building depth across DSA, OOP, Operating Systems, Computer Networks and DBMS while applying those foundations through systems programming, networking and machine learning projects.",
-    links: [],
-  },
+ 
 ];
 
 const updateCardGlow=(e:React.MouseEvent<HTMLDivElement>)=>{const el=e.currentTarget,r=el.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top;el.style.setProperty("--mouse-x",`${x}px`);el.style.setProperty("--mouse-y",`${y}px`);el.style.setProperty("--rotate-x",`${((y/r.height)-.5)*-3}deg`);el.style.setProperty("--rotate-y",`${((x/r.width)-.5)*3}deg`)};
