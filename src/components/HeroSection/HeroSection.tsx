@@ -3,7 +3,7 @@ import { ArrowRight, Download, Github, Linkedin, Mail } from "lucide-react";
 import TechStackSection from "../TechStackSection/TechStackSection";
 import { Button } from "../lightswind/button";
 import { Badge } from "../lightswind/badge";
-import { AuroraTextEffect } from "../lightswind/aurora-text-effect";
+// import { AuroraTextEffect } from "../lightswind/aurora-text-effect";
 import { DotPattern } from "../lightswind/dot-pattern";
 
 export const HeroSection=()=> <section id="hero" className="relative min-h-[100vh] flex flex-col pt-12 md:pt-16 overflow-hidden bg-background"><DotPattern width={16} height={16} cx={1} cy={1} cr={1} glow/>
